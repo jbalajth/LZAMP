@@ -273,6 +273,7 @@ def loop_data_logging(serNums):
 
 def loop_error_checking(**kwargs):
     global c_channels_enabled, c_thresh_current_low
+    
     try:
         nn=0
         mm=zeros((4,8))
